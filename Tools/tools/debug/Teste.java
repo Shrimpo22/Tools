@@ -3,7 +3,7 @@ package debug;
 public class Teste {
 	public static void main(String[] args) {
 		Debug.off();
-		Debug.Message("1st", false);
-		Debug.Message("2nd", true);
+		Debug.message("1st", false);
+		Debug.message("2nd", true);
 	}
 }
